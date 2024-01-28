@@ -1,3 +1,9 @@
+/**
+ * Allows to use one object (Proxy) as a placeholder for another object.
+ * Instead of directly using the object we use a proxy object to achieve
+ * some level of control, security or additional functionality.
+ */
+
 class CryptoApi //simulating external API
 {
     getValue(coin)

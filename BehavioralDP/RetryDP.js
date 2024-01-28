@@ -1,3 +1,12 @@
+/**
+ * Allows to handle temporary failures in an application whenever
+ * making external network calls to API, database or other resources.
+ * Can be done in three ways:
+ * I - Don't retry (Eg: Authentication failures, etc.)
+ * II - Immediate retry (Eg: Unusual network failures, etc.)
+ * III - Retry after delay (Eg: Server is busy, etc.)
+ */
+
 async function retryOperation()
 {
     let currentTry = 0;

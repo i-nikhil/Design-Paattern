@@ -1,3 +1,8 @@
+/**
+ * Encapsulate a group of closely related algorithms/strategies,
+ * so they are easily interchangable.
+ */
+
 class PaymentStrategy{
     pay(amount){
     }

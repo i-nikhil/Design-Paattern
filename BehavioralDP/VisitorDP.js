@@ -1,3 +1,11 @@
+/**
+ * Less popular pattern in Javascript
+ * Allows to add new operations and methods to an object
+ * without actually changing/refactoring the object itself.
+ * The new functionality is kept in a seperate object(Visitor).
+ * Useful when we want to extend an object.
+ */
+
 class Employee
 {
     #name

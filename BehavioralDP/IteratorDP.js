@@ -1,3 +1,8 @@
+/*
+Effectively loop over collection of objects, based on own rules
+of traversal, without exposing the collection.
+*/
+
 class Iterator{
     #list
     #index

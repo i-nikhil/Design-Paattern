@@ -1,3 +1,8 @@
+/*
+Defines an object that centralizes communication between set of objects.
+Instead of commnuicating directly, they commnuicate through mediator.
+*/
+
 class ChatRoom
 {
     sendMessage(fromUser, message)

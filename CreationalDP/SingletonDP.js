@@ -1,3 +1,6 @@
+/**
+ * Used to limit the number of instances of an object to atmost one.
+ */
 class ProcessManager {
     #instance
     constructor() {

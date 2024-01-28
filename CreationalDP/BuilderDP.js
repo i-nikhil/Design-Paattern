@@ -1,3 +1,9 @@
+/**
+ * Used to construct complex objects step by step. Creating new
+ * instance with some base properties and then add more properties
+ * to the object as needed.
+ */
+
 class Person{
     #name
     #weight

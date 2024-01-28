@@ -1,3 +1,8 @@
+/**
+ * Manufactures different object at a centralized location
+ * rather than creating it on the fly
+ */
+
 class Employee
 {
     #name

@@ -1,3 +1,9 @@
+/*
+Defines a one-to-many dependency relation between one object(subject)
+to other dependent objects(observers). When subject changes its state,
+all observers are notified automatically.
+*/
+
 class Subject{
     #observers
     #state
