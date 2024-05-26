@@ -13,6 +13,7 @@ These are about providing object creation mechanism that promote flexiblity and 
 ### Structural Design Patterns
 These focuses on simplyfying the composition of class and objects, making it easier to form large structures.
 - [Proxy Pattern](https://github.com/i-nikhil/Design-Pattern-Javascript/blob/main/StructuralDP/ProxyDP.js)
+- [Module Pattern](https://github.com/i-nikhil/Design-Pattern-Javascript/blob/main/StructuralDP/ModuleDP.js)
 
 ### Behavioral Design Patterns
 These patterns address the interaction, communication and responsibility of objects. Focusing on how objects collaborate and distribute responsibility among themselves.
